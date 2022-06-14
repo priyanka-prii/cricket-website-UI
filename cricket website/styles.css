@@ -1,0 +1,114 @@
+.bcColor{
+    background-color: #f7d1bf;
+}
+body{
+    background-color: rgb(197, 204, 208);
+}
+h1{
+    font-size: 40px;
+    color: rgb(3, 32, 51);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.marg{
+    margin-top: 6rem;
+}
+.main{
+    margin: auto;
+    font-size: 26px;
+    background-color: rgb(188, 107, 14);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(220, 232, 239);
+}
+.main tr th{
+    color: rgb(3, 32, 51);
+}
+.main tr td{
+    text-align: center;
+}
+.main tr td a{
+    text-decoration: none;
+    color: rgb(220, 232, 239);
+    overflow: auto;
+}
+.pinfo{
+    margin: auto;
+    color: rgb(3, 32, 51);
+    font-size: 26px;
+    padding: 15px;
+}
+.pinfo tr td{
+    padding: 2px;
+    padding-left: 30px;
+}
+.tabcont{
+    margin-top: 20px;
+}
+header{
+    
+    border: 2px solid rgb(3, 25, 97);
+    height: 150px;
+    background-color: rgb(3, 25, 97);;
+    margin: 0px 0px;
+}
+.topper{
+    display: inline-block;
+    background-color: wheat;
+    /* border: 2px solid rgb(228, 195, 11); */
+    /* overflow: auto; */
+}
+.topper img{
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    width: 180px;
+    text-align: center;
+    /* overflow: auto; */
+}
+.navbar{
+    display: block;
+    position: absolute;
+    /* border: 2px solid black; */
+    width: 60%;
+    /* margin: 25px auto; */
+    top: 12px;
+    left: 270px;
+    padding: 0px;
+    /* overflow: auto; */
+}
+.searchbar{
+    position: absolute;
+    display: inline-block;
+    right: 13px;
+    top: 55px;
+    width: 255px;
+    /* border: 2px solid darkblue; */
+    /* border-radius: 12px; */
+    /* overflow: auto; */
+}
+.navbar li{
+    display: inline-block;
+    padding: 5px;
+    /* overflow: auto; */
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 50px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    overflow: auto;
+    font-family: 'PT Sans', sans-serif;
+}
+.navbar li a:hover{
+    color: rgb(187, 73, 73);
+    text-decoration: underline;
+}
+.searchbar input{
+    /* width: 20px; */
+    padding: 6px;
+    text-align: center;
+    font-size: 18px;
+}
